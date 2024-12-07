@@ -7,7 +7,7 @@
 .sign-up{
     width: 100%;
     min-width: 100vh;
-    background: #292929 ;
+    background: #153800d5 ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
 
 .left-box{
     padding: 50px;
-    background: #6b00d5;
+    background: #173f00b9;
     flex-basis: 50% ;
     flex-grow: 1;
     color: #fff;
@@ -122,6 +122,6 @@ input[type=checkbox]{
     font-size: 15px;
 }
 .login-msg a{
-    color: #ea4355;
+    color: #fffb00;
     text-decoration: none;
 }
