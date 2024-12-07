@@ -32,3 +32,36 @@ body {
     background-color: #ddd;
     color: black;
 }
+
+.sign-up{
+    width: 100%;
+    min-width: none;
+    background: #292929 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 700px;
+    background: #fff;
+}
+
+.left-box{
+    padding: 40px;
+    background: #6b6b6b;
+    flex-basis: 50% ;
+    flex-grow: 1;
+    color: #fff;
+}
+
+.right-box{
+    padding: 40%;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
