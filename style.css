@@ -64,7 +64,7 @@ body {
 }
 
 .logo-login {
-    font-size: 30px;
+    font-size: 40px;
     color: #153800d5;
     text-align: center;
 
@@ -84,6 +84,7 @@ body {
 
 .field i {
     margin-right: 10px;
+    font-size: 30px;
     /* เพิ่มระยะห่างระหว่างไอคอนและฟิลด์ */
 }
 
@@ -117,6 +118,14 @@ form #sign-in {
     align-items: center;
     margin-top: 20px;
     /* เพิ่มระยะห่างด้านบน */
+}
+
+.button a {
+    width: 100%;
+    /* ทำให้ลิงก์มีความกว้างเต็มที่ */
+    text-align: center;
+    text-decoration: none;
+    /* ลบเส้นใต้ของลิงก์ */
 }
 
 .button button {
