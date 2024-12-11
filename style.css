@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #c6e4eb;
 }
 
@@ -31,4 +31,117 @@ body {
 .top-menu a:hover {
     background-color: #ddd;
     color: black;
+}
+
+/* style login */
+
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline: none;
+    color: #000;
+    font-size: 12px;
+    background: transparent;
+}
+
+.logo-login {
+    font-size: 30px;
+    color: #153800d5;
+    text-align: center;
+
+}
+
+
+.field {
+    margin-left: 20px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    margin-bottom: 20px;
+    /* เพิ่มระยะห่างด้านล่าง */
+
+}
+
+.field i {
+    margin-right: 10px;
+    /* เพิ่มระยะห่างระหว่างไอคอนและฟิลด์ */
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ccc;
+    /* เพิ่มเส้นรอบ */
+    outline: 0;
+    padding: 20px 10px;
+    border-radius: 40px;
+    /* เพิ่มความโค้งมนให้กับมุม */
+    transition: border-color 0.3s;
+    /* เพิ่มการเปลี่ยนสีเส้นรอบเมื่อโฟกัส */
+}
+
+input:focus {
+    border-color: #153800d5;
+    /* เปลี่ยนสีเส้นรอบเมื่อโฟกัส */
+}
+
+form #sign-in {
+    text-align: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* เพิ่มระยะห่างด้านบน */
+}
+
+.button button {
+    background: #153800d5;
+    color: #fff;
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;
+    border: 2px solid #153800d5;
+    /* สีล้อมรอบ */
+    outline: none;
+    cursor: pointer;
+    transition: background 0.5s, border-color 0.5s;
+    padding: 0 20px;
+    /* เพิ่ม padding ด้านข้าง */
+}
+
+.button button:hover {
+    background: #fff;
+    color: #153800d5;
+    border-color: #153800d5;
+}
+
+
+
+.group {
+    height: 280px;
 }
