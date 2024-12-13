@@ -148,6 +148,7 @@ form #sign-in {
     color: #153800d5;
     border-color: #153800d5;
 }
+
 /*page1*/
 .group {
     height: 280px;
@@ -159,20 +160,52 @@ form #sign-in {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background: #f4f4f9;
-    color: #0f100fb5;
-    padding: 20px;
-}
- 
 header {
     background: #0e6e28;
     color: #fff;
     padding: 1rem;
     text-align: center;
     /*ส่วนหัวpage*/
+}
+
+#main-content {
+    padding: 20px;
+    /* เพิ่มระยะห่างภายใน */
+    margin: 0px;
+    /* เพิ่มระยะห่างภายนอก */
+    background-color: #f9f9f9;
+    /* เพิ่มสีพื้นหลัง */
+    border-radius: 8px;
+    /* เพิ่มความโค้งมนให้กับมุม */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงา */
+}
+
+#main-content h2 {
+    margin-left: 20px;
+    /* จัดตำแหน่งหัวข้อให้อยู่ตรงกลาง */
+    color: #333;
+    /* เปลี่ยนสีตัวอักษร */
+}
+
+#main-content p {
+    text-align: justify;
+    /* จัดข้อความให้อยู่ในแนวเดียวกัน */
+    line-height: 1.6;
+    /* เพิ่มระยะห่างระหว่างบรรทัด */
+    color: #555;
+    /* เปลี่ยนสีตัวอักษร */
+    margin-top: 10px;
+    /* เพิ่มระยะห่างด้านบน */
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 .gallery {
@@ -190,21 +223,21 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 10px;
-     /*พื้นหลังภาพ*/
+    /*พื้นหลังภาพ*/
 }
 
 .gallery-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-     /*ส่วนภาพ*/
+    /*ส่วนภาพ*/
 }
 
 .gallery-item p {
     margin-top: 10px;
     font-size: 1rem;
     color: #070606;
-     /*ข้อความล่างภาพ*/
+    /*ข้อความล่างภาพ*/
 }
 
 footer {
