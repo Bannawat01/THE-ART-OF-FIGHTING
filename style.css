@@ -1,7 +1,12 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #c6e4eb;
+}
+
+.rowdies-bold {
+    font-family: "Rowdies", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .regis-login {
@@ -196,17 +201,11 @@ header {
     /* เพิ่มระยะห่างภายใน */
     margin: 0px;
     /* เพิ่มระยะห่างภายนอก */
-    background-color: #f9f9f9;
-    /* เพิ่มสีพื้นหลัง */
-    border-radius: 8px;
-    /* เพิ่มความโค้งมนให้กับมุม */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* เพิ่มเงา */
+
 }
 
 #main-content h2 {
     margin-left: 20px;
-    /* จัดตำแหน่งหัวข้อให้อยู่ตรงกลาง */
     color: #333;
     /* เปลี่ยนสีตัวอักษร */
 }
@@ -218,8 +217,6 @@ header {
     /* เพิ่มระยะห่างระหว่างบรรทัด */
     color: #555;
     /* เปลี่ยนสีตัวอักษร */
-    margin-top: 10px;
-    /* เพิ่มระยะห่างด้านบน */
 }
 
 p {
