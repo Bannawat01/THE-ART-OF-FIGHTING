@@ -39,14 +39,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(image/image.png);
+    background-image:url(image/pngtree-muay-thai-on-location-history-boxing-punching-male-photo-image_5607822.jpg);
     background-size: cover;
     /* ทำให้ภาพเต็มจอ */
     background-position: center;
     /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
     background-repeat: no-repeat;
     /* ไม่ให้ภาพซ้ำ */
-    filter: blur(5px);
+    filter: blur(1px);
     /* เพิ่มเอฟเฟกต์เบลอ */
     z-index: -1;
     /* ทำให้ pseudo-element อยู่ด้านหลังเนื้อหา */
