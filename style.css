@@ -1,14 +1,23 @@
+/* General Styles */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
 .rowdies-bold {
     font-family: "Rowdies", serif;
     font-weight: 700;
     font-style: normal;
 }
 
+/* Layout */
 .regis-login {
     font-family: 'Poppins', sans-serif;
     background-color: #c6e4eb;
@@ -19,7 +28,7 @@ body {
     margin: 0;
 }
 
-
+/* Top Menu */
 .top-menu {
     background-color: #333;
     overflow: hidden;
@@ -28,10 +37,7 @@ body {
     align-items: center;
 }
 
-.top-menu .left {
-    display: flex;
-}
-
+.top-menu .left,
 .top-menu .right {
     display: flex;
 }
@@ -49,9 +55,7 @@ body {
     color: black;
 }
 
-/* style login */
-
-
+/* Form Box */
 .form-box {
     display: flex;
     flex-direction: column;
@@ -67,7 +71,7 @@ body {
     border-radius: 8px;
 }
 
-
+/* Input Box */
 .input-box {
     width: 100%;
     padding: 10px;
@@ -79,16 +83,15 @@ body {
     background: transparent;
 }
 
-
+/* Logo Login */
 .logo-login {
     font-size: 40px;
     margin-bottom: 40px;
     color: #153800d5;
     text-align: center;
-
 }
 
-
+/* Field */
 .field {
     margin-left: 20px;
     background: #fff;
@@ -96,54 +99,46 @@ body {
     align-items: center;
     transition: max-height 0.5s;
     margin-bottom: 20px;
-    /* เพิ่มระยะห่างด้านล่าง */
-
 }
 
 .field i {
     margin-right: 10px;
     font-size: 30px;
-    /* เพิ่มระยะห่างระหว่างไอคอนและฟิลด์ */
 }
 
+/* Input */
 input {
     width: 100%;
     background: transparent;
     border: 1px solid #ccc;
-    /* เพิ่มเส้นรอบ */
     outline: 0;
     padding: 20px 10px;
     border-radius: 40px;
-    /* เพิ่มความโค้งมนให้กับมุม */
     transition: border-color 0.3s;
-    /* เพิ่มการเปลี่ยนสีเส้นรอบเมื่อโฟกัส */
 }
 
 input:focus {
     border-color: #153800d5;
-    /* เปลี่ยนสีเส้นรอบเมื่อโฟกัส */
 }
 
+/* Sign In */
 form #sign-in {
-    text-align: left;
-    font-size: 14px;
     text-align: center;
+    font-size: 14px;
 }
 
+/* Button */
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    /* เพิ่มระยะห่างด้านบน */
 }
 
 .button a {
     width: 100%;
-    /* ทำให้ลิงก์มีความกว้างเต็มที่ */
     text-align: center;
     text-decoration: none;
-    /* ลบเส้นใต้ของลิงก์ */
 }
 
 .button button {
@@ -153,12 +148,10 @@ form #sign-in {
     width: 60%;
     border-radius: 20px;
     border: 2px solid #153800d5;
-    /* สีล้อมรอบ */
     outline: none;
     cursor: pointer;
     transition: background 0.5s, border-color 0.5s;
     padding: 0 20px;
-    /* เพิ่ม padding ด้านข้าง */
 }
 
 .button button:hover {
@@ -167,24 +160,16 @@ form #sign-in {
     border-color: #153800d5;
 }
 
-/*page1*/
+/* Page 1 */
 .group {
     height: 280px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Header */
 header {
-
     background: linear-gradient(rgba(239, 62, 62, 0.5), rgba(0, 0, 0, 0.5)),
-        /*ปรับสีพื้นหลัง*/
         url('image/thai-bg.jpg') no-repeat center center;
     background-size: cover;
-    /* ภาพปรับขนาดเต็มพื้นที่ */
     color: #fffefe;
     padding: 4rem;
     text-align: center;
@@ -193,41 +178,24 @@ header {
     font-style: normal;
 }
 
-/*ส่วนหัวpage*/
-
-
+/* Main Content */
 #main-content {
     padding: 20px;
-    /* เพิ่มระยะห่างภายใน */
     margin: 0px;
-    /* เพิ่มระยะห่างภายนอก */
-
 }
 
 #main-content h2 {
     margin-left: 20px;
     color: #333;
-    /* เปลี่ยนสีตัวอักษร */
 }
 
 #main-content p {
     text-align: justify;
-    /* จัดข้อความให้อยู่ในแนวเดียวกัน */
     line-height: 1.6;
-    /* เพิ่มระยะห่างระหว่างบรรทัด */
     color: #555;
-    /* เปลี่ยนสีตัวอักษร */
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
-
+/* Gallery */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -243,24 +211,21 @@ p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 10px;
-    /*พื้นหลังภาพ*/
 }
 
 .gallery-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    /*ส่วนภาพ*/
 }
 
 .gallery-item p {
     margin-top: 10px;
     font-size: 1rem;
     color: #070606;
-    /*ข้อความล่างภาพ*/
 }
 
-
+/* Footer */
 footer {
     text-align: center;
     margin-top: 20px;
