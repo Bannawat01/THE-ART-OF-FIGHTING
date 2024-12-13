@@ -4,6 +4,17 @@ body {
     background-color: #c6e4eb;
 }
 
+.regis-login {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c6e4eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
 .top-menu {
     background-color: #333;
     overflow: hidden;
@@ -63,8 +74,10 @@ body {
     background: transparent;
 }
 
+
 .logo-login {
     font-size: 40px;
+    margin-bottom: 40px;
     color: #153800d5;
     text-align: center;
 
