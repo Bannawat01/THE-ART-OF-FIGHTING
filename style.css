@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #c6e4eb;
+    background-color: #fefefe;
 }
 
 .top-menu {
@@ -196,6 +195,7 @@ header {
     /* จัดตำแหน่งหัวข้อให้อยู่ตรงกลาง */
     color: #333;
     /* เปลี่ยนสีตัวอักษร */
+   
 }
 
 #main-content p {
