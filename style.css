@@ -22,12 +22,34 @@ body {
 /* Layout */
 .regis-login {
     font-family: 'Poppins', sans-serif;
-    background-color: #c6e4eb;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
+    /* ป้องกันไม่ให้ pseudo-element ออกนอกขอบเขต */
+}
+
+.regis-login::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/image.png);
+    background-size: cover;
+    /* ทำให้ภาพเต็มจอ */
+    background-position: center;
+    /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat;
+    /* ไม่ให้ภาพซ้ำ */
+    filter: blur(5px);
+    /* เพิ่มเอฟเฟกต์เบลอ */
+    z-index: -1;
+    /* ทำให้ pseudo-element อยู่ด้านหลังเนื้อหา */
 }
 
 /* Top Menu */
