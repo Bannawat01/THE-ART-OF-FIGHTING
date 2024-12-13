@@ -161,12 +161,22 @@ form #sign-in {
 }
 
 header {
-    background: #0e6e28;
-    color: #fff;
-    padding: 1rem;
+
+    background: linear-gradient(rgba(239, 62, 62, 0.5), rgba(0, 0, 0, 0.5)),
+        /*ปรับสีพื้นหลัง*/
+        url('image/thai-bg.jpg') no-repeat center center;
+    background-size: cover;
+    /* ภาพปรับขนาดเต็มพื้นที่ */
+    color: #fffefe;
+    padding: 4rem;
     text-align: center;
-    /*ส่วนหัวpage*/
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 500;
+    font-style: normal;
 }
+
+/*ส่วนหัวpage*/
+
 
 #main-content {
     padding: 20px;
@@ -239,6 +249,7 @@ p {
     color: #070606;
     /*ข้อความล่างภาพ*/
 }
+
 
 footer {
     text-align: center;
