@@ -39,7 +39,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(image/image.png);
+    background-image: url(image/Muay_Thai_Fight_U_\(80668065\).jpg);
     background-size: cover;
     /* ทำให้ภาพเต็มจอ */
     background-position: center;
@@ -111,7 +111,7 @@ body {
 .logo-login {
     font-size: 40px;
     margin-bottom: 40px;
-    color: #153800d5;
+    color: #880000d5;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ input {
 }
 
 input:focus {
-    border-color: #153800d5;
+    border-color: #880000d5;
 }
 
 /* Sign In */
@@ -166,12 +166,12 @@ form #sign-in {
 }
 
 .button button {
-    background: #153800d5;
+    background: #880000d5;
     color: #fff;
     height: 40px;
     width: 60%;
     border-radius: 20px;
-    border: 2px solid #153800d5;
+    border: 2px solid #880000d5;
     outline: none;
     cursor: pointer;
     transition: background 0.5s, border-color 0.5s;
@@ -180,8 +180,8 @@ form #sign-in {
 
 .button button:hover {
     background: #fff;
-    color: #153800d5;
-    border-color: #153800d5;
+    color: #880000d5;
+    border-color: #880000d5;
 }
 
 /* Page 1 */
