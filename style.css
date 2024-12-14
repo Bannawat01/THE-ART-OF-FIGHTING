@@ -238,7 +238,7 @@ header {
 }
 
 .gallery-item img {
-    max-width: 100%;
+    max-width: 1600px;
     height: auto;
     border-radius: 5px;
 }
