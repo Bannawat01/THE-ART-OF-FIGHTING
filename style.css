@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to bottom, #fbfbfb, #fcfcfc);
     /* ไล่สีจากดำไปเทา */
+    color: #333;
 }
 
 * {
@@ -59,6 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .top-menu .left,
@@ -72,6 +74,7 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .top-menu a:hover {
@@ -228,13 +231,15 @@ header {
 }
 
 .gallery-item {
-    /* background: #fff; */
-    /* border: 1px solid #ddd; */
-    /* border-radius: 5px; */
     overflow: hidden;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
     text-align: center;
     padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .gallery-item img {
